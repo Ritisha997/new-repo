@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+   
+   /* .cards{
+        display: flex;
+        padding:13px;
+        margin-top:30px;
+       
+    }
+    .item{
+        flex:1;
+       padding: 200px;
+       background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhYC_5WdBr3rKL1vWKJSGlndhhEslUzaPUFg&usqp=CAU);
+    background-size: cover;
+     background-position: center;
+   
+        background-repeat: no-repeat;
+       background-color: rgba(0, 0, 0, 0.993);
+     
+      
+    }
+    .item1{
+        flex:1;
+        width: 50px;
+        height: 50px;
+        background: coral;
+     
+        padding: 200px;
+}
+
+.header{
+  text-align: justify;
+    text-transform: uppercase;
+   
+}
+.head-text{
+   margin-top: 0;
+ 
+}*/
+
+.header{
+    display: flex;
+   padding: 60px;
+   max-width: 1300px;
+   height: auto;
+ 
+}
+.left-header{
+    flex:1;
+    padding: 20px;
+    position: relative;
+  
+    background-image:url(https://images.unsplash.com/photo-1587271636175-90d58cdad458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+     background-position: center;
+   
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px  rgba(68, 67, 67, 0.87);
+    
+      
+}
+.overlay{
+    position: absolute;
+ top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 34, 34, 0.301);
+
+}
+
+
+
+.right-header{
+    flex:1;
+    padding: 20px;
+ 
+ height: 450px;
+ box-shadow: 0 0 5px rgba(68, 67, 67, 0.87)
+}
+.header-subtext{
+    color: rgb(82, 80, 80);
+   
+    text-transform: uppercase;
+   
+    text-align: center;
+}
+.header-maintext{
+    color: red;
+    margin-top:2px;
+    font-size: 36px;
+   text-transform: uppercase;
+    text-align: center;
+  }
+  .btn{
+   padding: 5px;
+   padding:5px 24px;
+    border:1.7px solid rgb(224, 12, 12);
+    border-radius: 15px;
+   
+    color: rgb(255, 255, 255);
+   background: red;
+  }
+
+  .btn1{
+      padding: 10px;
+     margin-top: 30px;
+    
+  }
+.fred{
+    padding: 20px;
+    font-size: 30px;
+}
+.li1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    list-style: none;
+    color:rgb(82, 80, 80)
+}
+.text{
+      text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.li2{
+    display: flex;
+    padding: 20px;
+  justify-content: space-between;
+  list-style: none;
+}
+.li3{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    list-style: none;
+}
+.book{
+     padding: 20px;
+}
+
+.book1{
+    font-size: 20px;
+    background: red;
+    text-align: center;
+    padding: 10px;
+    color: rgb(206, 204, 202);
+}
+i{
+    color: red;
+    padding-right: 5px;
+}
