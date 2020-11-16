@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(245, 238, 238);
+   
+}
+body{
+  color: black;
+}
+.container{
+  padding: 3px;
+ 
+}
+.items{
+    display: flex;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  background-image: linear-gradient(50deg, rgba(67, 78, 231, 0.952),rgba(115, 220, 247, 0.89));
+}
+.item{
+   
+    padding-top: 26px;
+    padding-left: 20px;
+ 
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: burlywood;
+}
+.item1{
+  
+    padding-top: 26px;
+    padding-left: 800px;
+  float: right;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: burlywood;
+}
+.item-link{
+  color: rgba(242, 249, 250, 0.863);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa{
+  padding-left: 5px;
+  color: rgba(255, 228, 196, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item-link1 a{
+    position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(245, 232, 216);
+ padding-right: 30px;
+}
+
+.item:hover{
+border-radius: 8%;
+box-shadow: 5px 5px;
+    background-image: linear-gradient(90deg, rgba(19, 89, 219, 0.836),rgba(211, 105, 149, 0.856));
+}
+.items::before{
+position: absolute;
+border-top: 10px solid #333;
+border-right: 20px solid #333;
+border-left: 15px solid transparent;
+border-bottom: 15px solid transparent;
+}

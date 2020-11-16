@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(245, 238, 238);
+   
+}
+body{
+  color: black;
+}
+.container{
+  padding: 3px;
+ 
+}
+.items{
+    display: flex;
+  background-image: linear-gradient(90deg, rgb(201, 5, 64), rgb(125, 6, 180));
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+.item{
+    padding: 10px;
+    padding-left: 30px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: burlywood;
+}
+.item-link{
+  color: rgb(162, 245, 80);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa{
+  padding-left: 5px;
+  color: rgba(255, 228, 196, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item-link1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: burlywood;
+}
+.form-group{
+  padding: 10px;
+  
+}
+.search{
+  padding-left: 500px;
+ 
+}
+.btn {
+  color: black;
+  padding: 2px;
+  
+}
+.form-control{
+  padding: 2px;
+}
